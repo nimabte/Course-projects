@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1544617104 source:/home/nima/codeblocks/shell_sort/shellmult/shellmult/shellmult.cpp
+	<iostream>
+	<random>
+	<algorithm>
+	<thread>
+	<mutex>
+	<chrono>
+	<fstream>
+
