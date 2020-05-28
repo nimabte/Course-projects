@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1545490783 source:/home/nima/codeblocks/multythread_example/queue/queue.cpp
+	<iostream>
+	<random>
+	<algorithm>
+	<thread>
+	<mutex>
+	<chrono>
+	<fstream>
+
+1546205120 source:/home/nima/codeblocks/multythread_example/queue/backup/circular queue/queue.cpp
+	<iostream>
+	<random>
+	<algorithm>
+	<thread>
+	<mutex>
+	<chrono>
+	<fstream>
+
