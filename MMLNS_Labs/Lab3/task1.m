@@ -1,0 +1,24 @@
+net = newp([0 1], 1); % –the entire object is on the screen ;
+%pause;
+net.inputWeights{1,1}; % – the weights of the object input;
+net.biases{1}; % – the bias of the neuron;
+net.IW{1,1}; % – the value of the weights;
+net.b{1}; % – the value of the bias;
+%pause;
+net.IW{1,1}=[3]; % – the job weight;
+net.b{1}=[4]; % – the job bias;
+net.IW{1,1}; % – the value of the weight;
+net.b{1}; % – the value of the bias;
+%pause;
+net = init(net); % – initialization with zeros.;
+net.IW{1,1}; % – a weight of zero.;
+net.b{1}; % – an bias of zero;
+%pause;
+net.inputWeights{1,1}.initFcn='rands';
+net.biases{1}.initFcn='rands';
+net = init(net); % – initialization with random values;
+net.IW{1,1}; % – the new value of the weight;
+net.b{1}; % – the new value of the bias;
+%pause;
+p = {[0] [1] [0.5]}; % – the sequence of inputs;
+a = sim(net, p); % - modeling network.

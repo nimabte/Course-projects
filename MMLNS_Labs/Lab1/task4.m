@@ -1,0 +1,10 @@
+net=feedforwardnet(5);
+[x,t]=simplefit_dataset;
+net=feedforwardnet(5);
+net=train(net,x,t);
+gensim(net);
+y=net(x);
+net.b{1};
+net.IW{1,1};
+net.b{2};
+net.LW{2,1};
